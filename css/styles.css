@@ -14,6 +14,7 @@
 }
 body {
   color: var(--titel-color);
+  background-color: var(--midl-sec-bcg-color);
 }
 /* header */
 .hat {
@@ -92,7 +93,7 @@ body {
 
 /* ourteam */
 .ourteam {
-  background-color: var(team-bcg-color);
+  background-color: var(--team-bcg-color);
 }
 .ourteam-title {
   color: var(--titel-color);
@@ -132,3 +133,31 @@ body {
 }
 
 /* Portfolio */
+.general-btn {
+  color: var(--titel-color);
+  background-color: var(--team-bcg-color);
+}
+
+.general-btn:hover,
+.general-btn:focus {
+  color: var(--header-bcg-color);
+  background-color: var(--activ-color);
+}
+
+.general-list,
+.general-items {
+  list-style-type: none;
+}
+
+.general-link {
+  text-decoration: none;
+}
+
+.general-title {
+  color: var(--titel-color);
+}
+
+.general-text {
+  color: var(--text-color);
+  text-decoration: none;
+}
