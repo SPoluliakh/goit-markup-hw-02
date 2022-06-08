@@ -14,31 +14,34 @@ body {
   color: var(--titel-color);
 }
 /* header */
-.header {
+.hat {
   background-color: #ffffff;
 }
 span {
   color: var(--activ-color);
 }
 
-.link,
-.logo {
+.hat-link,
+.hat-logo {
   color: var(--titel-color);
   text-decoration: none;
 }
-.link:hover,
-.link:focus,
-.logo:hover,
-.logo:focus {
+.hat-link:hover,
+.hat-link:focus,
+.hat-logo:hover,
+.hat-logo:focus {
   color: var(--activ-color);
 }
-.contact {
+.hat-contact {
   color: var(--text-color);
   text-decoration: none;
 }
-.contact:hover,
-.contact:focus {
+.hat-contact:hover,
+.hat-contact:focus {
   color: var(--activ-color);
+}
+.hat-list {
+  list-style-type: none;
 }
 
 /* hiro */
@@ -67,6 +70,9 @@ span {
 }
 .advantage-text {
   color: var(--text-color);
+}
+.advantage-list {
+  list-style-type: none;
 }
 
 /* examples */
