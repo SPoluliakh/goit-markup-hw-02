@@ -8,8 +8,9 @@
   --activ-color: #2196f3;
   --header-bcg-color: #ffffff;
   --hiro-bcg-color: #2f303a;
-  --midl-sec-bcg-color: #e5e5e5
+  --midl-sec-bcg-color: #e5e5e5;
   --team-bcg-color: #f5f4fa;
+  --adress-color: rgba(255, 255, 255, 0.6);
 }
 body {
   color: var(--titel-color);
@@ -30,7 +31,9 @@ body {
 .hat-link:hover,
 .hat-link:focus,
 .hat-logo:hover,
-.hat-logo:focus {
+.hat-logo:focus,
+.cellar-logo:hover,
+.cellar-logo:focus {
   color: var(--activ-color);
 }
 .hat-contact {
@@ -54,7 +57,8 @@ body {
 }
 .hiro-button {
   color: var(--header-bcg-color);
-  background-color: var(--activ-color)
+  background-color: var(--activ-color);
+}
 .hiro-button:hover,
 .hiro-button:focus {
   color: var(--activ-color);
@@ -104,22 +108,20 @@ body {
 }
 
 /* footer */
+
 .cellar {
-  background-color: #2f303a;
+  background-color: var(--hiro-bcg-color);
 }
-.logo.cellar-logo {
+.cellar-logo {
   color: var(--header-bcg-color);
 }
-.logo.cellar-logo:hover,
-.logo.cellar-logo:focus {
-  color: var(--activ-color);
-}
+
 .user {
   color: var(--header-bcg-color);
 }
 .user-mail,
 .user-phone {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--adress-color);
   text-decoration: none;
 }
 .user-mail:hover,
@@ -128,3 +130,5 @@ body {
 .user-phone:focus {
   color: var(--activ-color);
 }
+
+/* Portfolio */
