@@ -1,0 +1,37 @@
+/* text- color - #757575; */
+/* titel- color -  #212121; */
+/* activ- color - #2196F3; */
+/* h1- color - #FFFFFF;
+ */
+
+:root {
+  --text-color: #757575;
+  --titel-color: #212121;
+  --activ-color: #2196f3;
+  --h1-color: #ffffff;
+}
+body {
+  color: var(--titel-color);
+}
+/* header */
+span {
+  color: var(--activ-color);
+}
+
+.link,
+.logo {
+  color: var(--titel-color);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--activ-color);
+}
+.contact {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--activ-color);
+}
