@@ -1,23 +1,24 @@
 /* text- color - #757575; */
 /* titel- color -  #212121; */
 /* activ- color - #2196F3; */
-/* h1- color - #FFFFFF;
- */
 
 :root {
   --text-color: #757575;
   --titel-color: #212121;
   --activ-color: #2196f3;
-  --h1-color: #ffffff;
+  --header-bcg-color: #ffffff;
+  --hiro-bcg-color: #2f303a;
+  --midl-sec-bcg-color: #e5e5e5
+  --team-bcg-color: #f5f4fa;
 }
 body {
   color: var(--titel-color);
 }
 /* header */
 .hat {
-  background-color: #ffffff;
+  background-color: var(--header-bcg-color);
 }
-span {
+.half {
   color: var(--activ-color);
 }
 
@@ -46,24 +47,23 @@ span {
 
 /* hiro */
 .hiro {
-  background-color: #2f303a;
+  background-color: var(--hiro-bcg-color);
 }
 .hiro-title {
-  color: var(--h1-color);
+  color: var(--header-bcg-color);
 }
 .hiro-button {
-  color: #ffffff;
-  background-color: #2196f3;
-}
+  color: var(--header-bcg-color);
+  background-color: var(--activ-color)
 .hiro-button:hover,
 .hiro-button:focus {
-  color: #2196f3;
-  background-color: #ffffff;
+  color: var(--activ-color);
+  background-color: var(--header-bcg-color);
 }
 
 /* advantage */
 .advantage {
-  background-color: #e5e5e5;
+  background-color: var(--midl-sec-bcg-color);
 }
 .title {
   color: var(--titel-color);
@@ -77,7 +77,7 @@ span {
 
 /* examples */
 .examples {
-  background-color: #e5e5e5;
+  background-color: var(--midl-sec-bcg-color);
 }
 .examples-list {
   list-style-type: none;
@@ -88,7 +88,7 @@ span {
 
 /* ourteam */
 .ourteam {
-  background-color: #f5f4fa;
+  background-color: var(team-bcg-color);
 }
 .ourteam-title {
   color: var(--titel-color);
@@ -108,14 +108,14 @@ span {
   background-color: #2f303a;
 }
 .logo.cellar-logo {
-  color: var(--h1-color);
+  color: var(--header-bcg-color);
 }
 .logo.cellar-logo:hover,
 .logo.cellar-logo:focus {
   color: var(--activ-color);
 }
 .user {
-  color: var(--h1-color);
+  color: var(--header-bcg-color);
 }
 .user-mail,
 .user-phone {
