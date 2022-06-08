@@ -98,27 +98,27 @@ span {
 }
 
 /* footer */
-.footer {
+.cellar {
   background-color: #2f303a;
 }
-.logo.footer-logo {
+.logo.cellar-logo {
   color: var(--h1-color);
 }
-.logo.footer-logo:hover,
-.logo.footer-logo:focus {
+.logo.cellar-logo:hover,
+.logo.cellar-logo:focus {
   color: var(--activ-color);
 }
-.address {
+.user {
   color: var(--h1-color);
 }
-.address-mail,
-.address-phone {
+.user-mail,
+.user-phone {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.address-mail:hover,
-.address-mail:focus,
-.address-phone:hover,
-.address-phone:focus {
+.user-mail:hover,
+.user-mail:focus,
+.user-phone:hover,
+.user-phone:focus {
   color: var(--activ-color);
 }
