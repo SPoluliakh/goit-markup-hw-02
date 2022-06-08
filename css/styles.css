@@ -14,6 +14,9 @@ body {
   color: var(--titel-color);
 }
 /* header */
+.header {
+  background-color: #ffffff;
+}
 span {
   color: var(--activ-color);
 }
@@ -24,7 +27,9 @@ span {
   text-decoration: none;
 }
 .link:hover,
-.link:focus {
+.link:focus,
+.logo:hover,
+.logo:focus {
   color: var(--activ-color);
 }
 .contact {
@@ -33,5 +38,87 @@ span {
 }
 .contact:hover,
 .contact:focus {
+  color: var(--activ-color);
+}
+
+/* hiro */
+.hiro {
+  background-color: #2f303a;
+}
+.hiro-title {
+  color: var(--h1-color);
+}
+.hiro-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.hiro-button:hover,
+.hiro-button:focus {
+  color: #2196f3;
+  background-color: #ffffff;
+}
+
+/* advantage */
+.advantage {
+  background-color: #e5e5e5;
+}
+.title {
+  color: var(--titel-color);
+}
+.advantage-text {
+  color: var(--text-color);
+}
+
+/* examples */
+.examples {
+  background-color: #e5e5e5;
+}
+.examples-list {
+  list-style-type: none;
+}
+.examples-title {
+  color: var(--titel-color);
+}
+
+/* ourteam */
+.ourteam {
+  background-color: #f5f4fa;
+}
+.ourteam-title {
+  color: var(--titel-color);
+}
+.ourteam-list {
+  list-style-type: none;
+}
+.ourteam-list .title {
+  color: var(--titel-color);
+}
+.ourteam-list .text {
+  color: var(--text-color);
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo.footer-logo {
+  color: var(--h1-color);
+}
+.logo.footer-logo:hover,
+.logo.footer-logo:focus {
+  color: var(--activ-color);
+}
+.address {
+  color: var(--h1-color);
+}
+.address-mail,
+.address-phone {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.address-mail:hover,
+.address-mail:focus,
+.address-phone:hover,
+.address-phone:focus {
   color: var(--activ-color);
 }
