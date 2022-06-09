@@ -199,6 +199,11 @@ body {
 .general-btn {
   color: var(--titel-color);
   background-color: var(--team-bcg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .general-btn:hover,
@@ -218,13 +223,22 @@ body {
 
 .general-title {
   color: var(--titel-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .general-text {
   color: var(--text-color);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 .general-title:hover,
 .general-text:hover {
   color: var(--activ-color);
 }
+
+/* general itms*/
