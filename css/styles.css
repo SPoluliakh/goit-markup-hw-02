@@ -1,7 +1,3 @@
-/* text- color - #757575; */
-/* titel- color -  #212121; */
-/* activ- color - #2196F3; */
-
 :root {
   --text-color: #757575;
   --titel-color: #212121;
@@ -15,6 +11,8 @@
 body {
   color: var(--titel-color);
   background-color: var(--midl-sec-bcg-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /* header */
 .hat {
@@ -22,6 +20,14 @@ body {
 }
 .half {
   color: var(--activ-color);
+}
+
+.hat-logo,
+.cellar-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .hat-link,
@@ -40,6 +46,7 @@ body {
 .hat-contact {
   color: var(--text-color);
   text-decoration: none;
+  font-style: normal;
 }
 .hat-contact:hover,
 .hat-contact:focus {
@@ -47,6 +54,10 @@ body {
 }
 .hat-list {
   list-style-type: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* hiro */
@@ -65,15 +76,32 @@ body {
   overflow: hidden;
 }
 
-.hiro {
+.hiro,
+.cellar {
   background-color: var(--hiro-bcg-color);
 }
 .hiro-title {
   color: var(--header-bcg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hiro-button {
   color: var(--header-bcg-color);
   background-color: var(--activ-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  margin: 0 auto;
+  display: block;
 }
 .hiro-button:hover,
 .hiro-button:focus {
@@ -82,14 +110,21 @@ body {
 }
 
 /* advantage */
+
 .advantage {
   background-color: var(--midl-sec-bcg-color);
 }
 .title {
   color: var(--titel-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .advantage-text {
   color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 .advantage-list {
   list-style-type: none;
@@ -102,43 +137,55 @@ body {
 .examples-list {
   list-style-type: none;
 }
-.examples-title {
+.examples-title,
+.ourteam-title {
   color: var(--titel-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* ourteam */
 .ourteam {
   background-color: var(--team-bcg-color);
 }
-.ourteam-title {
-  color: var(--titel-color);
-}
+
 .ourteam-list {
   list-style-type: none;
 }
 .ourteam-list .title {
   color: var(--titel-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
 }
 .ourteam-list .text {
   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 /* footer */
 
-.cellar {
-  background-color: var(--hiro-bcg-color);
-}
 .cellar-logo {
   color: var(--header-bcg-color);
+  text-decoration: none;
 }
 
 .user {
   color: var(--header-bcg-color);
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
 }
 .user-mail,
 .user-phone {
   color: var(--adress-color);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
 }
 .user-mail:hover,
 .user-mail:focus,
